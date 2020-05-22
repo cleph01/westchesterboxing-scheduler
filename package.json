@@ -1,0 +1,27 @@
+{
+  "name": "session-scheduler-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.13.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "graphql-merge-resolvers": "^1.1.16",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "merge-graphql-schemas": "^1.7.8",
+    "pg": "^8.2.1",
+    "sqlite3": "^4.2.0",
+    "twilio": "^3.43.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
